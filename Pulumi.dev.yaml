@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  new-project-test:containerPort: "80"
+  new-project-test:cpu: "512"
+  new-project-test:memory: "128"
+  pulumi:template: container-aws-typescript
